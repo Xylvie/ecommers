@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/public/shop-svgrepo-com.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_shopping_cart,local_shipping,payments,support_agent" />
+    <title>Bomshoppe</title>
+  </head>
+
+  <body class="bg-gray-800">
+      
+    <header class="w-full flex justify-between items-center p-4 text-white font-mono sm:px-10 md:px-20 lg:px-32 xl:px-40 shadow-2xl shadow-red-500/50 sticky top-0 z-50 bg-gray-900 bg-opacity-70 backdrop-blur-lg">
+      <div class="uppercase font-extrabold text-2xl">
+        <h1>boomshoppe</h1>
+      </div>
+
+      <nav class="text-xl uppercase">
+        <a href="#hero" class="hover:text-red-400">Home</a>
+        <a href="#featured-products" class="hover:text-red-400">Shop</a>
+        <span class="material-symbols-outlined ml-10 hover:text-red-400">add_shopping_cart</span>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="hero" class="flex flex-wrap items-center text-center justify-center px-5 sm:px-10 sm:py-10 sm:justify-center sm:text-center md:px-20 lg:px-32 xl:px-40">
+        <div class="flex flex-col justify-center">
+          <h1 class="text-white font-extrabold text-6xl md:text-7xl mb-5">
+            <span class="text-red-500 italic font-serif">
+              Season Sale
+            </span> 
+            <br>MEN'S FASHION
+          </h1>
+          <p class="text-white text-3xl md:text-5xl">Min. 35-70% Off</p>
+        </div>
+
+        <div class="mt-5 flex justify-center items-center w-full md:w-1/2">
+          <img src="/Model.jpg" width="450px" alt="Model" class="object-contain mix-blend-lighten rounded-2xl transition duration-500 hover:scale-110" />
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="flex flex-col items-center justify-center text-white font-mono p-5 sm:px-5 bg-gray-900 bg-opacity-80 backdrop-blur-lg">
+          <div class="grid grid-cols-3 gap-10 sm:gap-20 md:gap-40 lg:gap-60 xl:gap-70">
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-6xl">local_shipping</span>
+              <p class="text-md sm:text-xl md:text pt-2">Free Shipping</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-6xl">payments</span>
+              <p class="text-sm sm:text-xl pt-2">Secure Payment</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-6xl">support_agent</span>
+              <p class="text-md sm:text-xl pt-2">24/7 Support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 md:px-20 lg:px-32 xl:px-40">
+        <!-- Left Banner-->
+        <div class="relative md:col-span-2 rounded-lg overflow-hidden">
+          <img src="/public/mens2.jpg" alt="Mens Fashion" class="w-auto h-full object-cover ">
+          <div class="absolute inset-0 bg-black/30"></div>
+          <div class="absolute inset-0 flex flex-col justify-center items-start p-6 text-white">
+            <p class="text-blue-400 font-semibold">New Arrivals</p>
+            <h2 class="text-3xl font-bold">Men's Fashion</h2>
+            <p class="mb-4">Up to 70% Off</p>
+            <button class="bg-white text-black px-4 py-2 rounded-lg font-medium">Shopw Now</button>
+          </div>
+        </div>
+
+        <!-- Right Banner-->
+         <div class="grid grid-rows-2 gap-4">
+          <!-- Top Row Banner -->
+           <div class="grid grid-cols-2 gap-4">
+            <!--Accssories-->
+            <div class="relative rounded-lg overflow-hidden">
+              <img src="/public/accessories.jpg" alt="accessories" class="w-full h-full object-cover">
+              <div class="aboslute inset-0 bg-black/20"></div>
+              <div class="absolute inset-0 flex flex-col justify-center items-start p-4 text-white">
+                <span class="bg-blue-600 text-xs px-2 py-1 rounded"> 30% Off</span>
+                <h3 class="text-lg font-bold mt-2">Jewelries</h3>
+                <p class="text-sm">Show Now →</p>
+              </div>
+            </div>
+
+            <!-- Shoes -->
+            <div class="relative rounded-lg overflow-hidden">
+              <img src="/public/shoes.jpg" alt="shoes" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-black/20"></div>
+              <div class="absolute inset-0 flex flex-col justify-center items-start p-4 text-white">
+                <span class="bg-blue-600 text-xs px-2 py-1 rounded">50% Off</span>
+                <h3 class="text-lg font-bold mt-2">Shoes</h3>
+                <p class="text-sm">Show Now</p>
+              </div>
+           </div>
+          </div>
+
+          <!-- Bottom Row Banner -->
+          <div class="relative rounded-lg overflow-hidden dm:grid-span-2">
+            <img src="/public/backpack.jpg" alt="backpack" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/20"></div>
+            <div class="absolute inset-0 flex flex-col justify-content items-start p-6 text-white">
+              <p class="text-sm">Accessories</p>
+              <h3 class="text-2xl font-bold text-black">Backpack</h3>
+              <p class="text-sm mb-2 text-black">Min. 40-80% Off</p>
+              <button class="bg-white text-black px-3 py-1 rounded-lg text-sml">Shop Now</button>
+            </div>
+         </div>
+      </section>
+
+      <section id="featured-products" class="p-5 sm:px-10 md:px-20 lg:px-32 xl:px-40">
+        <h2 class="text-white text-4xl font-bold mb-10 text-center uppercase">Featured Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <!-- Product Card Example -->
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/shoes.jpg" alt="Product 1" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Men's Brown Shoes</h3>
+            <p class="text-gray-400 mt-2">$29.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+          </div>
+          <!-- Repeat for more products -->
+
+          <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/adidas.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Men's Green Adidas Shoes</h3>
+            <p class="text-gray-400 mt-2">$39.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/nike.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Men's white Nike Shoes</h3>
+            <p class="text-gray-400 mt-2">$39.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/LongTeesshirt.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Men's LongTee Shirt</h3>
+            <p class="text-gray-400 mt-2">$19.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/whatever.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Whatever T-shirt</h3>
+            <p class="text-gray-400 mt-2">$19.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/Godsplan.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">God's Plan T-shirt</h3>
+            <p class="text-gray-400 mt-2">$19.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/backpack.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Travel Backpack for Men</h3>
+            <p class="text-gray-400 mt-2">$49.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/blackpack.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Leather Black Travel Bag for Men</h3>
+            <p class="text-gray-400 mt-2">$59.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/LVsling.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">LV Sling Bag for Men</h3>
+            <p class="text-gray-400 mt-2">$29.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/roelx.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Rolex Watch for Men</h3>
+            <p class="text-gray-400 mt-2">$99.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/blackwatch.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Black Watch for Men</h3>
+            <p class="text-gray-400 mt-2">$19.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="/public/smartwatch.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            <h3 class="text-white text-xl font-semibold">Snart Watch for Men</h3>
+            <p class="text-gray-400 mt-2">$69.99</p>
+            <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Add to Cart</button>
+        </div>
+
+
+      </section>
+      
+    </main>
+
+
+    <footer>
+      <div class="bg-gray-900 text-white text-center p-6">
+        <p class="text-sm">© Joshua Neri. All rights reserved.</p>
+        <p class="text-sm">Follow us on 
+          <a href="https://github.com/Xylvie" target="_blank" class="text-blue-400 hover:underline">Github</a>, 
+          <a href="https://www.facebook.com/Neri.Josh/" target="_blank" class="text-blue-400 hover:underline">Facebook</a>, 
+          <a href="https://www.linkedin.com/in/joshua-neri-a3ba892a1/" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a>
+        </p>
+      </div>
+      <div class="bg-gray-800 text-white text-center p-4">
+        <p class="text-sm">Designed with ❤️ by Joshua Neri</p>
+    </footer>
+  </body>
+</html>

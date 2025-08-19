@@ -1,5 +1,7 @@
 A resonsive E-commerce website built from Vanilla HTML and Tailwind CSS and used GIT to upload and deploy in GitHub.
 
+Visit it here - https://xylvie.github.io/ecommers/
+
 Full Desktop size view
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/420fe2f3-36f1-41cc-9219-d70d5ae64a3e" />
 
